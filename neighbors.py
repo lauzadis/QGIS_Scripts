@@ -1,5 +1,6 @@
 ################################################################################
 # Copyright 2014 Ujaval Gandhi
+# Modified 2019 by Matas Lauzadis to support QGIS version 3.x
 #
 #This program is free software; you can redistribute it and/or
 #modify it under the terms of the GNU General Public License
@@ -17,7 +18,7 @@
 #
 ################################################################################
 from qgis.utils import iface
-from PyQt4.QtCore import QVariant
+from PyQt5.QtCore import QVariant
 
 # Replace the values below with values from your layer.
 # For example, if your identifier field is called 'XYZ', then change the line
