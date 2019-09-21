@@ -94,3 +94,5 @@ def neighbors(name_field, sum_field=None):
     print('Processing complete.')
     return 0
 
+
+neighbors('NAME')  # Modify this line with your inputs to use in QGIS
